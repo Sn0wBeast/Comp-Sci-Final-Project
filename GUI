@@ -1,0 +1,9 @@
+from tkinter import *
+
+Rengen = Tk()
+
+Rengen.geometry('1550x750')
+
+Rengen.title('Title')
+
+Rengen.mainloop()
