@@ -1,1 +1,17 @@
+enemyname0 = ["Goblin[Lv.1]","Goblin[Lv.3]","Goblin King[Lv.10]"]
+posx = 100
+posy = 100
 
+if move:
+
+  if left:
+    posx += 1
+  elif right:
+    posx -= 1
+  elif up:
+    posy += 1
+  elif down:
+    posy -= 1
+  else:
+  
+else:
