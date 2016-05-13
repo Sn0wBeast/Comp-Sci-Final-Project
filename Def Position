@@ -1,0 +1,11 @@
+def posk1():  
+  if posx == 3:
+    if posy == 3:
+      x = 0
+    elif posy == 6:
+      kingdom = 2
+    elif posy == 1:
+      kingdom = 3
+    else:
+  else:
+  
