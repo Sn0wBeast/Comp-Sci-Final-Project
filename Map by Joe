@@ -1,1 +1,42 @@
 #Test of Map
+GRASSCOLOR = (24, 255, 0)
+NUMGRASS = 80 
+NUMTREES = 90
+for i in range (1,5):
+  GRASSIMAGES.append(pygame.image.load('grass%s.png' % i))
+  TREEIMAGES.append(pygame.image.load('tree%s.ping' % i ))
+while True:
+  rungame()
+  
+def rungame():
+grassObjs = []
+treeObjs = []
+
+
+
+
+
+
+DISPLAYSURF.fill(GRASSCOLOR)
+
+for gObj in grassObjs:
+    gRect = Conqueror.Rect(  ( gObj ['x'] - camerax, gObj['y'] - cameray, gObj['width'], gObjs['height']) )
+    
+                    DISPLAYSURF.blit(GRASSIMAGES[gObj['grassImage']], gRect)
+                    
+
+
+
+def getRandomOffCameraPos(camerax, cameray, objWidth, objHeight):
+
+  cameraRext = Conqueror.Rect(camerax, cameray, cameray, WINDWIDTH, WINHEIGHT)
+  
+    while True:
+    x = random.randint(camerax - WINWIDTH, camerax + (2 * WINWIDTH))
+    y = random.ranint(cameray - WINHEIGHT, cameray + (2 * WINHEIGHT))
+    
+      objRect = Conqueror.Rect(x, y, objWidth, objHeight)
+      if not objREct.colliderect(cameraRect):
+        return x,y
+        
+        
