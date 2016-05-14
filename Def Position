@@ -1,11 +1,141 @@
-def posk1():  
-  if posx == 3:
+def pos1(posx, posy):  
+#Determines your position in each kingdom
+#Kingdom = 0 is the wilderness.
+
+if kingdom == 1:
+  if posy == 3:
+    if posx == 3:
+    #Fight King Here
+    else:
+  elif posy == 6:
+    kingdom = 0
+  elif posy == 0:
+    kingdom = 4
+  elif posx == 6:
+    kingdom = 2
+  elif posx = 0:
+    kingdom = 0
+  else:
+  
+elif kingdom == 2:
+  if posy == 3:
+    if posx == 3:
+      #Fight King Here
+    else:
+  elif posy == 6:
+    kingdom = 0
+  elif posy == 0:
+    kingdom = 5
+  elif posx == 6:
+    kingdom = 3
+  elif posx = 0:
+    kingdom = 1
+  else:
+  
+elif kingdom == 3:
+  if posy == 3:
+    if posx == 3:
+      #Fight King Here
+    else:
+  elif posy == 6:
+    kingdom = 0
+  elif posy == 0:
+    kingdom = 6
+  elif posx == 6:
+    kingdom = 0
+  elif posx = 0:
+    kingdom = 2
+  else:
+  
+elif kingdom == 4:
+  if posy == 3:
+    if posx == 3:
+      #Fight King Here
+    else:
+  elif posy == 6:
+    kingdom = 1
+  elif posy == 0:
+    kingdom = 7
+  elif posx == 6:
+    kingdom = 5
+  elif posx = 0:
+    kingdom = 0
+  else:
+  
+elif kingdom == 5:
     if posy == 3:
+      if posx == 3:
       x = 0
+      else:
     elif posy == 6:
       kingdom = 2
-    elif posy == 1:
-      kingdom = 3
+    elif posy == 0:
+      kingdom = 8
+    elif posx == 6:
+      kingdom = 6
+    elif posx = 0:
+      kingdom = 4
     else:
+
+elif kingom == 6:
+  if posy == 3:
+    if posx == 3:
+      #Fight King Here
+    else:
+  elif posy == 6:
+    kingdom = 3
+  elif posy == 0:
+    kingdom = 9
+  elif posx == 6:
+    kingdom = 0
+  elif posx = 0:
+    kingdom = 5
   else:
+
+elif kingdom == 7:
+  if posy == 3:
+    if posx == 3:
+      #Fight King Here
+    else:
+  elif posy == 6:
+    kingdom = 4
+  elif posy == 0:
+    kingdom = 0
+  elif posx == 6:
+    kingdom = 8
+  elif posx = 0:
+    kingdom = 0
+  else:
+
+elif kingdom == 8:
+  if posy == 3:
+    if posx == 3:
+      #Fight King Here
+    else:
+  elif posy == 6:
+    kingdom = 5
+  elif posy == 0:
+    kingdom = 0
+  elif posx == 6:
+    kingdom = 9
+  elif posx = 0:
+    kingdom = 7
+  else:
+  
+elif kingdom == 9:
+  if posy == 3:
+    if posx == 3:
+      #Fight King Here
+    else:
+  elif posy == 6:
+    kingdom = 6
+  elif posy == 0:
+    kingdom = 0
+  elif posx == 6:
+    kingdom = 0
+  elif posx = 0:
+    kingdom = 8
+  else:
+else:
+
   
