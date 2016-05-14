@@ -1,6 +1,7 @@
 def pos1(posx, posy):  
 #Determines your position in each kingdom
 #Kingdom = 0 is the wilderness.
+#kingdom is a global variable declared in main()
 
 if kingdom == 1:
   if posy == 3:
