@@ -66,7 +66,7 @@ elif kingdom == 4:
 elif kingdom == 5:
     if posy == 3:
       if posx == 3:
-      x = 0
+      #You are the king of this land!
       else:
     elif posy == 6:
       kingdom = 2
