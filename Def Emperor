@@ -1,0 +1,33 @@
+#Global var kingdomsOwned, emporerOpinion
+#emporerOpinion controls mayors, royal guards, paladins, etc. from attacking you
+
+if kingdomsOwned > 1:
+  emperorOpinion -= 5
+  
+elif kingdomsOwned > 2:
+  emperorOpinion -= 5
+  
+elif kingdomsOwned > 3:
+  emperorOpinion -= 10
+  
+elif kingdomsOwned > 4:
+  emperorOpinion -= 10
+  
+elif kingdomsOwned > 5:
+  emperorOpinion -= 20
+
+elif kingdomsOwned > 6:
+  emperorOpinion -= 20
+
+elif kingdomsOwned > 7:
+  emperorOpinion -= 25
+  
+elif kingdomsOwned == 9:
+  emperorOpinion -= 30
+
+emperorChance = 100 / emperorOpinion
+
+emperorAttack = random.randInt(0,100)
+
+if emperorAttack < emperorChance:
+  #ATTACK
