@@ -1,1 +1,9 @@
-
+#Welcome to Conqueror!
+#Your goal is to control all nine kingdoms in the empire.
+#You are the ruler of Kingdom 5, Greenville.
+#You must improve your skill by gaining experience in battles.
+#Good luck, warrior!
+#WAIT!
+#It appears a goblin is attacking you! Prepare yourself!
+x = 0
+#Start battle sequence
