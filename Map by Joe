@@ -40,3 +40,101 @@ def getRandomOffCameraPos(camerax, cameray, objWidth, objHeight):
         return x,y
         
         
+        
+        
+        
+        
+def makenewplayer
+
+pl = {}
+    generalSize = random.randint(5, 25)
+    
+    pl['width']  = (generalSize + random.randint(0, 10)) 
+    pl['height'] = (generalSize + random.randint(0, 10)) 
+    pl['x'], pl['y'] = getRandomOffCameraPos(camerax, cameray, pl['width'], pl['height'])
+    pl['movex'] = getRandomVelocity()
+    pl['movey'] = getRandomVelocity()
+    if pl['movex'] < 0: # player is facing left
+        pl['surface'] = pygame.transform.scale(L_PLAYER_IMG, (pl['width'], pl['height']))
+    else: # squirrel is facing right
+        pl['surface'] = pygame.transform.scale(R_PLAYER_IMG, (pl['width'], pl['height']))
+    pl['walk'] = 0
+    pl['walkingrate'] = random.randint(10, 18)
+    sq['walkheight'] = random.randint(10, 50)
+    return pl
+    
+    
+    
+ def makenewgrass
+     gr = {}
+    gr['grassImage'] = random.randint(0, len(GRASSIMAGES) - 1)
+    gr['width']  = GRASSIMAGES[0].get_width()
+    gr['height'] = GRASSIMAGES[0].get_height()
+    gr['x'], gr['y'] = getRandomOffCameraPos(camerax, cameray, gr['width'], gr['height'])
+    gr['rect'] = pygame.Rect( (gr['x'], gr['y'], gr['width'], gr['height']) )
+    return gr
+
+ 
+ 
+ 
+ 
+ 
+ def makenewtree
+     tr = {}
+    tr['treeImage'] = random.randint(0, len(TREEIMAGES) - 1)
+    tr['width']  = TREEIMAGES[0].get_width()
+    tr['height'] = TREEIMAGES[0].get_height()
+    tr['x'], tr['y'] = getRandomOffCameraPos(camerax, cameray, tr['width'], tr['height'])
+    tr['rect'] = pygame.Rect( (tr['x'], tr['y'], tr['width'], tr['height']) )
+    return tr
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ def makenewenemy
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ def isOutsideActiveArea(camerax, cameray, obj):
+    # Return False if camerax and cameray are more than
+    # a half-window length beyond the edge of the window.
+    boundsLeftEdge = camerax - WINWIDTH
+    boundsTopEdge = cameray - WINHEIGHT
+    boundsRect = pygame.Rect(boundsLeftEdge, boundsTopEdge, WINWIDTH * 3, WINHEIGHT * 3)
+    objRect = pygame.Rect(obj['x'], obj['y'], obj['width'], obj['height'])
+    return not boundsRect.colliderect(objRect)
+
+
+if __name__ == '__main__':
+    main()
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+        
+        
