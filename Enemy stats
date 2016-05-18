@@ -1,0 +1,36 @@
+def Enemystats
+
+enemyname = ["Goblin[Lv.1]", "Goblin[Lv.3]", "Goblin King[Lv.10]", "Chicken[Lv.3]",
+"Man[Lv.2]", "Guard[Lv.15]", "Lord[Lv.22]", "Duke[Lv.40]", "Wolf[Lv.5]", "Bear[Lv.10]",
+"Ghost[Lv.15]", "Zombie[Lv.20]", "Baron[Lv.30]", "Paladin[Lv.35]", "Prince[Lv.75]", "Royal Guard[Lv.90]",
+"Priest[Lv.50]", "King[Lv.101]", "Mayor[Lv.51]", "Assassin[Lv.25]", "Rat[Lv.1]", "Emporer[Lv.1001]",
+"Dragon[Lv.71]", "Giant Dragon[Lv.85]",] 
+*Health value
+*attack 
+*defence
+*agility
+ x = enemyIdGet() 
+ 
+ "Goblin[Lv.1]" 
+ HealthValue = 5
+ attack = 3
+ defence = 4
+ agility = 2
+ 
+ "Goblin[Lv.3]"
+ Health value = 6
+ attack = = 4
+ defence = 4
+ agility =2
+ 
+ "Goblin King[Lv.10]"
+ Health value = 10
+ attack = 7
+ defence = 7
+ agility = 4
+ 
+ "Chicken[Lv.3]"
+ Healthvalue = 2
+ attack = 2
+ defence = 1
+ agility = 6
