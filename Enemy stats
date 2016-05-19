@@ -19,7 +19,7 @@ enemyname = ["Goblin[Lv.1]", "Goblin[Lv.3]", "Goblin King[Lv.10]", "Chicken[Lv.3
  
  "Goblin[Lv.3]"
  Health value = 6
- attack = = 4
+ attack = 4
  defence = 4
  agility =2
  
@@ -34,3 +34,130 @@ enemyname = ["Goblin[Lv.1]", "Goblin[Lv.3]", "Goblin King[Lv.10]", "Chicken[Lv.3
  attack = 2
  defence = 1
  agility = 6
+ 
+ "Man[Lv.2]"
+health value = 4
+attack = 5
+defence = 4
+agilty = 2
+
+"Guard[Lv.15]"
+health value = 15
+attack = 8
+defence = 10
+agility = 2
+
+"Lord[Lv.22]"
+health value = 30
+attack = 12
+defence = 11
+agility = 4
+
+"Duke[Lv.40]"
+health value = 50
+attack = 20
+defence = 20
+agility = 6
+
+"Wolf[Lv.5]"
+ Health value = 7
+ attack = 9
+ defence = 5
+ agility = 6
+ 
+ "Bear[Lv.10]"
+ health value = 10
+ attack value = 5
+ defence = 10
+ agility = 4
+ 
+ "Ghost[Lv.15]"
+ health value = 1
+ attack value = 5
+ defence = 5
+ agility = 10
+ intangibility = 8 //percent of not being able to be hit
+
+"Zombie[Lv.20]"
+health value = 25
+attack = 10
+defence = 9
+agility = 0
+
+"Baron[Lv.30]"
+health value = 40
+attack = 18
+defence = 20
+agility = 5
+
+"Paladin[Lv.35]"
+health value = 45
+attack = 25
+defence = 30
+agility = 3
+light value = 10
+
+"Prince[Lv.75]"
+health value = 70
+attack = 50
+defence = 70
+agility = 5
+leadership = 50
+
+"Royal Guard[Lv.90]"
+health value = 100
+attack = 60
+defence = 65
+agility = 5
+
+"Priest[Lv.50]"
+health value = 150
+attack = 10
+defence = 20
+agility = 4
+healing power = 20
+
+"King[Lv.101]"
+health value = 300
+attack = 80
+defence = 80
+agility = 7
+
+"Mayor[Lv.51]"
+health value = 55
+attack = 30
+defence = 15
+agility = 6
+
+"Assassin[Lv.25]"
+health value = 25
+attack = 40
+defence = 5
+agility = 10
+
+"Rat[Lv.1]"
+ HealthValue = 2
+ attack = 2
+ defence = 1
+ agility = 7
+ 
+ "Emporer[Lv.1001]"
+health value = 5000
+attack = 450
+defence = 300
+agility = 70
+
+"Dragon[Lv.71]"
+health value = 300
+attack = 500
+defence = 65
+agility = 10
+
+"Giant Dragon[Lv.85]"
+health value = 400
+attack = 600
+defence = 90
+agility = 15
+
+
+
