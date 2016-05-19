@@ -56,7 +56,7 @@ pl = {}
     pl['movey'] = getRandomVelocity()
     if pl['movex'] < 0: # player is facing left
         pl['surface'] = pygame.transform.scale(L_PLAYER_IMG, (pl['width'], pl['height']))
-    else: # squirrel is facing right
+    else: # player is facing right
         pl['surface'] = pygame.transform.scale(R_PLAYER_IMG, (pl['width'], pl['height']))
     pl['walk'] = 0
     pl['walkingrate'] = random.randint(10, 18)
