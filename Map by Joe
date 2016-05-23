@@ -60,7 +60,7 @@ pl = {}
         pl['surface'] = pygame.transform.scale(R_PLAYER_IMG, (pl['width'], pl['height']))
     pl['walk'] = 0
     pl['walkingrate'] = random.randint(10, 18)
-    sq['walkheight'] = random.randint(10, 50)
+    pl['walkheight'] = random.randint(10, 50)
     return pl
     
     
@@ -102,7 +102,22 @@ pl = {}
  
  
  def makenewenemy
- 
+ en = {}
+    generalSize = random.randint(5, 25)
+    
+    en['width']  = (generalSize + random.randint(0, 10)) 
+    en['height'] = (generalSize + random.randint(0, 10)) 
+    en['x'], pl['y'] = getRandomOffCameraPos(camerax, cameray, pl['width'], pl['height'])
+    en['movex'] = getRandomVelocity()
+    en['movey'] = getRandomVelocity()
+   
+        en['surface'] = pygame.transform.scale(L_ENEMY_IMG, (en['width'], en['height']))
+    else: # player is facing right
+        en['surface'] = pygame.transform.scale(R_ENEMY_IMG, (en['width'], en['height']))
+  
+    en['walkingrate'] = random.randint(10, 18)
+    en['walkheight'] = random.randint(10, 50)
+    return en
  
  
  
