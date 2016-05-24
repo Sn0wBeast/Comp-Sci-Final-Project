@@ -1,0 +1,9 @@
+x = 0
+list = ["You have defeated ", enemyName, "!"]
+for int x in list:
+  print(list)
+
+fighting = true
+while fighting == true:
+  #picture of fight here
+
