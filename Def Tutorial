@@ -7,3 +7,24 @@
 #It appears a goblin is attacking you! Prepare yourself!
 x = 0
 #Start battle sequence
+
+
+#Conqueror
+
+#Created by Trever Budd and Joe Taylor
+
+#Defeat all your opponents as you battle for supremacy in this fantasy epic. Become the great Conqueror!
+#This game is a turn based battle where you vs the opponent try to reduce each others life to 0.
+
+if playerhealth < 0
+
+return death
+
+else return victory
+
+def death
+
+print("you have died try again?")
+
+
+
